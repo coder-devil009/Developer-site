@@ -39,6 +39,10 @@
     background-image: url(../assets/Hero-bg.png);
   }
 
+    .first-bg a{
+        text-decoration: none;
+        color: white;
+    }
   main .first-bg{
     display: flex;
     align-items: center;
