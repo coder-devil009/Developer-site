@@ -1,7 +1,7 @@
-*{
+/* *{
    margin: 0;
    padding: 0;
-}
+} */
 
 /* style of header */
 
@@ -220,20 +220,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 64px 48px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
   }
    
   .support h3{
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 10px;
   }
    
    .support h6{
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 400;
+    margin-bottom: 25px;
    }
 
   .support h3,h6 {
     color: white;
+  }
+
+  #text-input{
+    width: 350px;
+    height: 25px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+  }
+
+  #submit-input{
+    padding: 17px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
   }
 
 
