@@ -163,6 +163,10 @@
     flex-direction: column;
   }
 
+  .inspiration h5{
+    font-size: 10px;
+  }
+
   .inspiration iframe{
     border-radius: 16px;
   }
